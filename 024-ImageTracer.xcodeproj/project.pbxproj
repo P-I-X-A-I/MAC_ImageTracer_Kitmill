@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D71C4DD1B9017FE004F4E3D /* CLIPPER.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D71C4DC1B9017FE004F4E3D /* CLIPPER.mm */; };
+		1D86FDFD1B8AB0CB002BE98A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D86FDFC1B8AB0CB002BE98A /* AppDelegate.m */; };
+		1D86FDFF1B8AB0CB002BE98A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D86FDFE1B8AB0CB002BE98A /* main.m */; };
+		1D86FE011B8AB0CB002BE98A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D86FE001B8AB0CB002BE98A /* Images.xcassets */; };
+		1D86FE041B8AB0CB002BE98A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D86FE021B8AB0CB002BE98A /* MainMenu.xib */; };
+		1D86FE101B8AB0CB002BE98A /* _24_ImageTracerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D86FE0F1B8AB0CB002BE98A /* _24_ImageTracerTests.m */; };
+		1D86FE1B1B8AB0DD002BE98A /* mainController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D86FE1A1B8AB0DD002BE98A /* mainController.mm */; };
+		1D86FE291B8AB225002BE98A /* pathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D86FE281B8AB225002BE98A /* pathView.m */; };
+		1D86FE2A1B8AB24E002BE98A /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D86FE231B8AB1F7002BE98A /* AppKit.framework */; };
+		1D86FE2C1B8AB83F002BE98A /* POTRACE.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D86FE2B1B8AB83F002BE98A /* POTRACE.mm */; };
+		1DA78BDC1B8AE65400015715 /* ALERT.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1DA78BDB1B8AE65400015715 /* ALERT.mm */; };
+		1DBB0C561B940C70002BA3FD /* GUI.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB0C551B940C70002BA3FD /* GUI.mm */; };
+		1DC0A1C61B8D8B150076F4A9 /* PO_UTILITY.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1DC0A1C51B8D8B150076F4A9 /* PO_UTILITY.mm */; };
+		446AC77B23C6B63400300068 /* libpotrace.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 446AC77A23C6B63400300068 /* libpotrace.a */; };
+		446AC77D23C6B68300300068 /* clipper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 446AC77C23C6B68300300068 /* clipper.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D86FE0A1B8AB0CB002BE98A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D86FDEE1B8AB0CB002BE98A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D86FDF51B8AB0CB002BE98A;
+			remoteInfo = "024-ImageTracer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D71C4DC1B9017FE004F4E3D /* CLIPPER.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CLIPPER.mm; sourceTree = "<group>"; };
+		1D86FDF61B8AB0CB002BE98A /* 024-ImageTracer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "024-ImageTracer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D86FDFA1B8AB0CB002BE98A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D86FDFB1B8AB0CB002BE98A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D86FDFC1B8AB0CB002BE98A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D86FDFE1B8AB0CB002BE98A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D86FE001B8AB0CB002BE98A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1D86FE031B8AB0CB002BE98A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1D86FE091B8AB0CB002BE98A /* 024-ImageTracerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "024-ImageTracerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D86FE0E1B8AB0CB002BE98A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D86FE0F1B8AB0CB002BE98A /* _24_ImageTracerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _24_ImageTracerTests.m; sourceTree = "<group>"; };
+		1D86FE191B8AB0DD002BE98A /* mainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainController.h; sourceTree = "<group>"; };
+		1D86FE1A1B8AB0DD002BE98A /* mainController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mainController.mm; sourceTree = "<group>"; };
+		1D86FE231B8AB1F7002BE98A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1D86FE271B8AB225002BE98A /* pathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pathView.h; sourceTree = "<group>"; };
+		1D86FE281B8AB225002BE98A /* pathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pathView.m; sourceTree = "<group>"; };
+		1D86FE2B1B8AB83F002BE98A /* POTRACE.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POTRACE.mm; sourceTree = "<group>"; };
+		1DA78BDB1B8AE65400015715 /* ALERT.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ALERT.mm; sourceTree = "<group>"; };
+		1DBB0C551B940C70002BA3FD /* GUI.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GUI.mm; sourceTree = "<group>"; };
+		1DC0A1C51B8D8B150076F4A9 /* PO_UTILITY.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PO_UTILITY.mm; sourceTree = "<group>"; };
+		446AC77A23C6B63400300068 /* libpotrace.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpotrace.a; path = "../../../ライブラリ系/potrace/libpotrace.a"; sourceTree = "<group>"; };
+		446AC77C23C6B68300300068 /* clipper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = clipper.mm; path = "../../../ライブラリ系/clipper_ver6/cpp/clipper.mm"; sourceTree = "<group>"; };
+		446AC77E23C6B6BF00300068 /* clipper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = clipper.h; path = "../../../ライブラリ系/clipper_ver6/cpp/clipper.h"; sourceTree = "<group>"; };
+		446AC77F23C6B6FB00300068 /* potracelib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = potracelib.h; path = "../../../ライブラリ系/potrace/potracelib.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D86FDF31B8AB0CB002BE98A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446AC77B23C6B63400300068 /* libpotrace.a in Frameworks */,
+				1D86FE2A1B8AB24E002BE98A /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D86FE061B8AB0CB002BE98A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D86FDED1B8AB0CB002BE98A = {
+			isa = PBXGroup;
+			children = (
+				1D86FDF81B8AB0CB002BE98A /* 024-ImageTracer */,
+				1D86FE0C1B8AB0CB002BE98A /* 024-ImageTracerTests */,
+				1D86FE221B8AB1D7002BE98A /* Frameworks */,
+				1D86FDF71B8AB0CB002BE98A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D86FDF71B8AB0CB002BE98A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D86FDF61B8AB0CB002BE98A /* 024-ImageTracer.app */,
+				1D86FE091B8AB0CB002BE98A /* 024-ImageTracerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D86FDF81B8AB0CB002BE98A /* 024-ImageTracer */ = {
+			isa = PBXGroup;
+			children = (
+				1D86FDFB1B8AB0CB002BE98A /* AppDelegate.h */,
+				1D86FDFC1B8AB0CB002BE98A /* AppDelegate.m */,
+				1D86FE001B8AB0CB002BE98A /* Images.xcassets */,
+				1D86FE021B8AB0CB002BE98A /* MainMenu.xib */,
+				1D86FE191B8AB0DD002BE98A /* mainController.h */,
+				1DBB0C551B940C70002BA3FD /* GUI.mm */,
+				1D86FE1A1B8AB0DD002BE98A /* mainController.mm */,
+				1D86FE2B1B8AB83F002BE98A /* POTRACE.mm */,
+				1DC0A1C51B8D8B150076F4A9 /* PO_UTILITY.mm */,
+				1D71C4DC1B9017FE004F4E3D /* CLIPPER.mm */,
+				1DA78BDB1B8AE65400015715 /* ALERT.mm */,
+				1D86FDF91B8AB0CB002BE98A /* Supporting Files */,
+			);
+			path = "024-ImageTracer";
+			sourceTree = "<group>";
+		};
+		1D86FDF91B8AB0CB002BE98A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				446AC77F23C6B6FB00300068 /* potracelib.h */,
+				446AC77E23C6B6BF00300068 /* clipper.h */,
+				446AC77C23C6B68300300068 /* clipper.mm */,
+				446AC77A23C6B63400300068 /* libpotrace.a */,
+				1D86FDFA1B8AB0CB002BE98A /* Info.plist */,
+				1D86FDFE1B8AB0CB002BE98A /* main.m */,
+				1D86FE271B8AB225002BE98A /* pathView.h */,
+				1D86FE281B8AB225002BE98A /* pathView.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D86FE0C1B8AB0CB002BE98A /* 024-ImageTracerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D86FE0F1B8AB0CB002BE98A /* _24_ImageTracerTests.m */,
+				1D86FE0D1B8AB0CB002BE98A /* Supporting Files */,
+			);
+			path = "024-ImageTracerTests";
+			sourceTree = "<group>";
+		};
+		1D86FE0D1B8AB0CB002BE98A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D86FE0E1B8AB0CB002BE98A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D86FE221B8AB1D7002BE98A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D86FE231B8AB1F7002BE98A /* AppKit.framework */,
+			);
+			name = Frameworks;
+			path = "024-ImageTracerTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D86FDF51B8AB0CB002BE98A /* 024-ImageTracer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D86FE131B8AB0CB002BE98A /* Build configuration list for PBXNativeTarget "024-ImageTracer" */;
+			buildPhases = (
+				1D86FDF21B8AB0CB002BE98A /* Sources */,
+				1D86FDF31B8AB0CB002BE98A /* Frameworks */,
+				1D86FDF41B8AB0CB002BE98A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "024-ImageTracer";
+			productName = "024-ImageTracer";
+			productReference = 1D86FDF61B8AB0CB002BE98A /* 024-ImageTracer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D86FE081B8AB0CB002BE98A /* 024-ImageTracerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D86FE161B8AB0CB002BE98A /* Build configuration list for PBXNativeTarget "024-ImageTracerTests" */;
+			buildPhases = (
+				1D86FE051B8AB0CB002BE98A /* Sources */,
+				1D86FE061B8AB0CB002BE98A /* Frameworks */,
+				1D86FE071B8AB0CB002BE98A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D86FE0B1B8AB0CB002BE98A /* PBXTargetDependency */,
+			);
+			name = "024-ImageTracerTests";
+			productName = "024-ImageTracerTests";
+			productReference = 1D86FE091B8AB0CB002BE98A /* 024-ImageTracerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D86FDEE1B8AB0CB002BE98A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = KeisukeWatanabe;
+				TargetAttributes = {
+					1D86FDF51B8AB0CB002BE98A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					1D86FE081B8AB0CB002BE98A = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 1D86FDF51B8AB0CB002BE98A;
+					};
+				};
+			};
+			buildConfigurationList = 1D86FDF11B8AB0CB002BE98A /* Build configuration list for PBXProject "024-ImageTracer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D86FDED1B8AB0CB002BE98A;
+			productRefGroup = 1D86FDF71B8AB0CB002BE98A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D86FDF51B8AB0CB002BE98A /* 024-ImageTracer */,
+				1D86FE081B8AB0CB002BE98A /* 024-ImageTracerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D86FDF41B8AB0CB002BE98A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D86FE011B8AB0CB002BE98A /* Images.xcassets in Resources */,
+				1D86FE041B8AB0CB002BE98A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D86FE071B8AB0CB002BE98A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D86FDF21B8AB0CB002BE98A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D86FE291B8AB225002BE98A /* pathView.m in Sources */,
+				1D86FE1B1B8AB0DD002BE98A /* mainController.mm in Sources */,
+				1D86FDFF1B8AB0CB002BE98A /* main.m in Sources */,
+				1D86FE2C1B8AB83F002BE98A /* POTRACE.mm in Sources */,
+				1DBB0C561B940C70002BA3FD /* GUI.mm in Sources */,
+				1DA78BDC1B8AE65400015715 /* ALERT.mm in Sources */,
+				1D86FDFD1B8AB0CB002BE98A /* AppDelegate.m in Sources */,
+				1D71C4DD1B9017FE004F4E3D /* CLIPPER.mm in Sources */,
+				1DC0A1C61B8D8B150076F4A9 /* PO_UTILITY.mm in Sources */,
+				446AC77D23C6B68300300068 /* clipper.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D86FE051B8AB0CB002BE98A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D86FE101B8AB0CB002BE98A /* _24_ImageTracerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D86FE0B1B8AB0CB002BE98A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D86FDF51B8AB0CB002BE98A /* 024-ImageTracer */;
+			targetProxy = 1D86FE0A1B8AB0CB002BE98A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D86FE021B8AB0CB002BE98A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D86FE031B8AB0CB002BE98A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D86FE111B8AB0CB002BE98A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1D86FE121B8AB0CB002BE98A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1D86FE141B8AB0CB002BE98A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "024-ImageTracer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/wtnbks/Desktop/Objective-C/ライブラリ系/potrace",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "annolab.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1D86FE151B8AB0CB002BE98A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "024-ImageTracer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/wtnbks/Desktop/Objective-C/ライブラリ系/potrace",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "annolab.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1D86FE171B8AB0CB002BE98A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "024-ImageTracerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "annolab.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/024-ImageTracer.app/Contents/MacOS/024-ImageTracer";
+			};
+			name = Debug;
+		};
+		1D86FE181B8AB0CB002BE98A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "024-ImageTracerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "annolab.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/024-ImageTracer.app/Contents/MacOS/024-ImageTracer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D86FDF11B8AB0CB002BE98A /* Build configuration list for PBXProject "024-ImageTracer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D86FE111B8AB0CB002BE98A /* Debug */,
+				1D86FE121B8AB0CB002BE98A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D86FE131B8AB0CB002BE98A /* Build configuration list for PBXNativeTarget "024-ImageTracer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D86FE141B8AB0CB002BE98A /* Debug */,
+				1D86FE151B8AB0CB002BE98A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D86FE161B8AB0CB002BE98A /* Build configuration list for PBXNativeTarget "024-ImageTracerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D86FE171B8AB0CB002BE98A /* Debug */,
+				1D86FE181B8AB0CB002BE98A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D86FDEE1B8AB0CB002BE98A /* Project object */;
+}
